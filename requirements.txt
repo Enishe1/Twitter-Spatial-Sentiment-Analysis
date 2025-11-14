@@ -1,0 +1,14 @@
+streamlit
+tweepy
+textblob
+pandas
+plotly
+python-dotenv
+transformers
+torch
+scikit-learn
+vaderSentiment
+matplotlib
+seaborn
+huggingface_hub
+datasets

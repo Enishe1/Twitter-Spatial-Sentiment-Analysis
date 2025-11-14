@@ -1,0 +1,36 @@
+# Environment
+.env
+.venv
+env/
+venv/
+
+# Data
+data/
+*.csv
+*.json
+*.parquet
+
+# Models
+models/
+*.pkl
+*.joblib
+
+# Cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/

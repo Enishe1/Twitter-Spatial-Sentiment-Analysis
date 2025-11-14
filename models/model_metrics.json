@@ -1,0 +1,27 @@
+{
+  "timestamp": "20251114_223322",
+  "best_model": "roberta_twitter",
+  "results": {
+    "roberta_twitter": {
+      "accuracy": 0.8398,
+      "f1_score": 0.8414,
+      "precision": 0.844,
+      "recall": 0.8398,
+      "support": 2928
+    },
+    "vader": {
+      "accuracy": 0.1646,
+      "f1_score": 0.0465,
+      "precision": 0.0271,
+      "recall": 0.1646,
+      "support": 2928
+    },
+    "naive_bayes": {
+      "accuracy": 0.7763,
+      "f1_score": 0.7397,
+      "precision": 0.7595,
+      "recall": 0.7763,
+      "support": 2928
+    }
+  }
+}
