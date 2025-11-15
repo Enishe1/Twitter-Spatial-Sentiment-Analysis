@@ -1,0 +1,4 @@
+,accuracy,f1_score,precision,recall,support
+roberta_twitter,0.8398,0.8414,0.844,0.8398,2928.0
+vader,0.5365,0.5751,0.7475,0.5365,2928.0
+naive_bayes,0.7763,0.7397,0.7595,0.7763,2928.0

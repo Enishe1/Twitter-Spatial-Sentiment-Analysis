@@ -1,5 +1,5 @@
 {
-  "timestamp": "20251114_223322",
+  "timestamp": "20251115_233358",
   "best_model": "roberta_twitter",
   "results": {
     "roberta_twitter": {
@@ -10,10 +10,10 @@
       "support": 2928
     },
     "vader": {
-      "accuracy": 0.1646,
-      "f1_score": 0.0465,
-      "precision": 0.0271,
-      "recall": 0.1646,
+      "accuracy": 0.5365,
+      "f1_score": 0.5751,
+      "precision": 0.7475,
+      "recall": 0.5365,
       "support": 2928
     },
     "naive_bayes": {
