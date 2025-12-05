@@ -1,0 +1,46 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Tweet Analysis Error</title>
+            <script src="https://cdn.tailwindcss.com"></script>
+            <style>
+                .error-container { max-width: 800px; margin: 50px auto; padding: 20px; border: 2px solid #ef4444; border-radius: 8px; background-color: #fef2f2; }
+                h1 { font-size: 1.5rem; font-weight: 700; color: #dc2626; margin-bottom: 20px; }
+                pre { white-space: pre-wrap; word-wrap: break-word; background-color: #fee2e2; padding: 15px; border-radius: 4px; overflow-x: auto; font-size: 0.9rem; }
+                code { background-color: #fca5a5; padding: 2px 4px; border-radius: 3px; font-weight: 600; }
+            </style>
+        </head>
+        <body class="bg-gray-50 font-sans">
+            <div class="error-container">
+                <h1>Execution Failed: Could not generate Tweet Visualizations</h1>
+                <p class="text-gray-700 mb-4">Please copy the detailed traceback below and share it with me.</p>
+                <pre>An error occurred during data processing or chart generation:
+Traceback (most recent call last):
+  File "C:\Users\muhov\Desktop\Twitter-Spatial-Sentiment-Analysis-main\Twitter-Spatial-Sentiment-Analysis\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Language'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\muhov\Desktop\Twitter-Spatial-Sentiment-Analysis-main\Twitter-Spatial-Sentiment-Analysis\src\covidwwmapcasesconfirmed.py", line 52, in generate_tweet_visualizations
+    language_counts = df_tweets['Language'].value_counts().nlargest(10).reset_index()
+                      ~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\muhov\Desktop\Twitter-Spatial-Sentiment-Analysis-main\Twitter-Spatial-Sentiment-Analysis\.venv\Lib\site-packages\pandas\core\frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\muhov\Desktop\Twitter-Spatial-Sentiment-Analysis-main\Twitter-Spatial-Sentiment-Analysis\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Language'
+</pre>
+                <p class="mt-4 text-sm text-gray-500">File attempted to load: <code>covid19_tweets.csv</code></p>
+            </div>
+        </body>
+        </html>
+        
