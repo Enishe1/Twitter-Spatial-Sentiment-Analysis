@@ -1,4 +1,4 @@
-﻿"""
+﻿﻿"""
 Bluesky AI Posts Collector 
 Simple, reliable, with location extraction
 """
