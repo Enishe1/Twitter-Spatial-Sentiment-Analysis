@@ -12,3 +12,7 @@ matplotlib
 seaborn
 huggingface_hub
 datasets
+wordcloud
+kaleido
+pillow
+ftfy
