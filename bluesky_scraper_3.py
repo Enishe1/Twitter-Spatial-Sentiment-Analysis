@@ -68,7 +68,7 @@ class BlueskyAICollector:
             "apprentissage automatique",
             
             # Italian - full phrases only
-            "intelligenza artificiale ricerca",
+            "intelligenza artificiale",
             
             # European context
             "European AI research",

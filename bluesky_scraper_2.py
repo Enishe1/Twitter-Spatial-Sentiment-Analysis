@@ -1,8 +1,7 @@
 ﻿"""
-Bluesky AI Posts Collector - FIXED VERSION
-1. Fixed authentication (no @ symbol)
-2. Prevents multiple posts from same user
-3. Better European content
+Bluesky AI Posts Collector - no @ symbol VERSION
+also Prevents multiple posts from same user
+more tags for Better European content
 """
 from atproto import Client, models
 import pandas as pd

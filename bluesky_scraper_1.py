@@ -177,7 +177,7 @@ class BlueskyAICollector:
                     post_data = {
                         'link': f"https://bsky.app/profile/{author.handle}/post/{post.uri.split('/')[-1]}",
                         'content': record.text if hasattr(record, 'text') else "",
-                        'sentiment': "",  # Empty for your model
+                        'sentiment': "",  # Empty for now
                         'location': location,
                         'username': author.handle,
                         'display_name': author.display_name if hasattr(author, 'display_name') else "",
@@ -334,10 +334,16 @@ def main():
     print("BLUESKY AI POSTS COLLECTOR")
     print("=" * 60)
     
+    # EDIT EDIT EDIT
+    # EDIT EDIT EDIT
+    # EDIT EDIT EDIT
     # EDIT THESE TWO LINES WITH YOUR CREDENTIALS 
     YOUR_HANDLE = ""  # CHANGE THIS
     YOUR_APP_PASSWORD = ""  # CHANGE THIS
     #  EDIT THESE TWO LINES WITH YOUR CREDENTIALS 
+    # EDIT EDIT EDIT
+    # EDIT EDIT EDIT
+    # EDIT EDIT EDIT
     
     print(f"\nUsing handle: {YOUR_HANDLE}")
     print("Using app password: [hidden]")
