@@ -56,7 +56,7 @@ An interactive world map showing sentiment distribution by country:
 - **Sentiment analysis** - Powered by `cardiffnlp/twitter-xlm-roberta-base-sentiment`
 
 
-## Installation
+# Installation
 
 ```bash
 # Clone the repository
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 ```
 
 
-### Dependencies
+## Dependencies
 - `streamlit` - Web dashboard (optional)
 - `tweepy` - Twitter API (legacy)
 - `atproto` - Bluesky API client
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 - `ftfy` - Text encoding fixes
 - `python-dotenv` - Environment management
 
-  ## Usage
+  # Usage
 
 ### 1. Collect Bluesky Posts
 
