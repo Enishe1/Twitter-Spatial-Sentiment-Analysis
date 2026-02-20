@@ -79,7 +79,7 @@ pip install -r requirements.txt
 - `ftfy` - Text encoding fixes
 - `python-dotenv` - Environment management
 
-  # Usage
+# Usage
 
 ### 1. Collect Bluesky Posts
 
